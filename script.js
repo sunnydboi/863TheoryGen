@@ -30,3 +30,15 @@ function addToHtml(partOne, partTwo, because){
     secondHeader.appendChild(textNode3);
 }
 addToHtml(first, second, because);
+
+// SAVE THEORY BUILDER PART ONE
+function buildTheoryPt1(){
+    var inputOne = document.getElementById("inputNumOne").value;
+    theoryPt1.push(inputOne);
+}
+
+// SAVE THEORY BUILDER PART TWO
+function buildTheoryPt2() {
+    var inputTwo = document.getElementById("inputNumTwo").value;
+    theoryPt2.push(inputTwo);
+}
