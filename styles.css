@@ -1,5 +1,5 @@
-.myDiv{
-    color: white;
+.partOne{
+    color: lightgreen;
     font-family: 'Courier New', Courier, monospace;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     white-space: nowrap; /* Keeps the content on a single line */
@@ -8,6 +8,24 @@
     animation: 
       typing 3.5s steps(50, end),
       blink-caret .75s step-end infinite;
+    text-decoration: underline;
+}
+.partTwo{
+    color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(50, end),
+      blink-caret .75s step-end infinite;
+    text-decoration: underline;
+}
+.myDiv{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .15em;
 }
 /* The typing effect */
 @keyframes typing {
