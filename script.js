@@ -9,14 +9,24 @@ var pt2 = theoryPt2[Math.floor(Math.random()*theoryPt2.length)];
 
 // TEST
 console.log(pt1 + " because " + pt2 + ".");
-const textInTheory = pt1 + " because " + pt2 + ".";
+
+// TEXT
+const first = pt1;
+const second = pt2 + ".";
+const because = " because ";
 
 // ADDING TO HTML
-function addToHtml(text){
-    let textNode = document.createTextNode(text);
-    let newH1 = document.createElement("h1");
-    newH1.appendChild(textNode);
-    let element = document.getElementById("theory");
-    element.appendChild(newH1);
+function addToHtml(partOne, partTwo, because){
+    let textNode1 = document.createTextNode(partOne);
+    let firstHeader = document.getElementById("theoPartOne");
+    firstHeader.appendChild(textNode1);
+
+    let textNode2 = document.createTextNode(because);
+    let breaker = document.getElementById("breaker");
+    breaker.appendChild(textNode2);
+
+    let textNode3 = document.createTextNode(partTwo);
+    let secondHeader = document.getElementById("theoPartTwo");
+    secondHeader.appendChild(textNode3);
 }
-addToHtml(textInTheory);
+addToHtml(first, second, because);
