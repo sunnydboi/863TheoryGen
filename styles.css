@@ -32,8 +32,11 @@
     from { width: 0 }
     to { width: 100% }
   }
-  
-
+.title{
+  background-color: black;
+  color: lightgreen;
+  font-family: 'Courier New', Courier, monospace;
+}
 .index{
     background-color: black;
     text-align: center;
