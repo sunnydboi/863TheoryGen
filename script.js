@@ -1,5 +1,5 @@
 // SET UP
-let theoryPt1 = ["Matt Killed Woods", "We are the missing link", "Sam and Woods are twins", "Deb is really Syphus", "Nelson is dead", "Sam killed Matt", "The serum is radioactive"]
+let theoryPt1 = ["Matt killed Woods", "We are the missing link", "Sam and Woods are twins", "Deb is really Syphus", "Nelson is dead", "Sam killed Matt", "The serum is radioactive"]
 let theoryPt2 = ["Quinn is the camera operator", "Matt is married to Amanda", "Matt is Syphus", "Deb gave birth to Sam", "Matt hid the Mountaineer", "Matt is really Syphus", "Subject 4 is fake"]
 
 
